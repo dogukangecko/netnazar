@@ -60,7 +60,7 @@ NetNazar veri toplamaz. Tarama sonuçları (IP/MAC, cihaz adları) yalnızca cih
 
 ## 🛠️ Teknoloji
 
-Çapraz platform: **Rust çekirdek** (tarama/keşif/güvenlik motoru) + **Flutter** arayüz. iOS, iPad, macOS ve Android tek kod tabanından. Uzaktan izleme için isteğe bağlı **self-host relay** (Docker).
+Çapraz platform: **Rust çekirdek** (tarama/keşif/güvenlik motoru) + **Flutter** arayüz. iOS, iPad, macOS ve Android tek kod tabanından. Uzaktan izleme için isteğe bağlı **self-host relay** (Docker) — kaynağı **açık**: [netnazar-relay](https://github.com/dogukangecko/netnazar-relay) (AGPL-3.0). Kendi sunucunda çalışan parçayı satır satır denetleyebilirsin.
 
 ## 💬 Destek
 
@@ -70,7 +70,7 @@ Soru, hata bildirimi, öneri: [geckodogukan@gmail.com](mailto:geckodogukan@gmail
 
 <div align="center">
 
-Bu depo NetNazar'ın **tanıtım sitesini, sürümlerini ve destek/gizlilik sayfalarını** barındırır. Uygulama kaynak kodu özeldir.
+Bu depo NetNazar'ın **tanıtım sitesini, sürümlerini ve destek/gizlilik sayfalarını** barındırır. Uygulama ve tarama çekirdeği kaynağı özeldir; self-host **relay + protokol açık kaynaktır** → [netnazar-relay](https://github.com/dogukangecko/netnazar-relay) (AGPL-3.0).
 
 © 2026 NetNazar 🧿
 
