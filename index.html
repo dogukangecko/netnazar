@@ -17,7 +17,8 @@
 <meta name="twitter:title" content="NetNazar — Ağını gözetleyen göz">
 <meta name="twitter:description" content="Gizlilik-öncelikli ağ tarayıcı + izleyici. Bulut yok, veri cihazında kalır.">
 <meta name="twitter:image" content="https://dogukangecko.github.io/netnazar/assets/screens/dashboard.png">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%230d2b5e'/%3E%3Ccircle cx='50' cy='50' r='34' fill='%23f4f7fc'/%3E%3Ccircle cx='50' cy='50' r='22' fill='%232f7fe0'/%3E%3Ccircle cx='50' cy='50' r='10' fill='%230a1424'/%3E%3C/svg%3E">
+<link rel="icon" href="assets/netnazar-icon.png">
+<link rel="apple-touch-icon" href="assets/netnazar-icon.png">
 <style>
   :root{
     --bg:#0a0e16; --bg2:#0c111b; --surface:#141a26; --surface2:#1b2330;
@@ -45,7 +46,7 @@
     background:rgba(10,14,22,.72); border-bottom:1px solid var(--line)}
   .nav-in{display:flex; align-items:center; justify-content:space-between; height:62px; gap:14px}
   .brand{display:flex; align-items:center; gap:10px; font-weight:700; letter-spacing:-.01em}
-  .brand .eye{width:26px; height:26px}
+  .brand .eye{width:26px; height:26px; border-radius:24%}
   .nav-links{display:flex; gap:26px; font-size:.92rem; margin-inline-start:auto}
   .nav-links a{color:var(--muted); transition:color .15s}
   .nav-links a:hover{color:var(--text)}
@@ -66,7 +67,7 @@
       radial-gradient(680px 380px at 50% -8%, rgba(59,130,246,.20), transparent 70%),
       radial-gradient(560px 320px at 80% 12%, rgba(232,161,58,.12), transparent 70%);
   }
-  .eye-big{width:96px; height:96px; margin:0 auto 26px; filter:drop-shadow(0 10px 34px rgba(59,130,246,.45))}
+  .eye-big{width:96px; height:96px; margin:0 auto 26px; border-radius:24%; filter:drop-shadow(0 10px 34px rgba(59,130,246,.45))}
   .hero h1{font-size:clamp(2.6rem,6.4vw,4.4rem); line-height:1.04; margin:0 0 18px; letter-spacing:-.03em; font-weight:800}
   .hero h1 .grad{background:linear-gradient(120deg,#fff 30%,var(--eye-soft)); -webkit-background-clip:text; background-clip:text; color:transparent}
   .tagline{font-size:clamp(1.1rem,2.4vw,1.45rem); color:var(--muted); max-width:640px; margin:0 auto 36px}
@@ -141,13 +142,8 @@
 </head>
 <body>
 
-<svg width="0" height="0" style="position:absolute"><symbol id="nazar" viewBox="0 0 100 100">
-  <circle cx="50" cy="50" r="48" fill="#0d2b5e"/><circle cx="50" cy="50" r="34" fill="#f4f7fc"/>
-  <circle cx="50" cy="50" r="22" fill="#2f7fe0"/><circle cx="50" cy="50" r="10" fill="#0a1424"/>
-</symbol></svg>
-
 <nav><div class="wrap nav-in">
-  <a class="brand" href="#top"><svg class="eye"><use href="#nazar"/></svg> NetNazar</a>
+  <a class="brand" href="#top"><img class="eye" src="assets/netnazar-icon.png" alt=""> NetNazar</a>
   <div class="nav-links">
     <a href="#features" data-i18n="nav.features">Özellikler</a>
     <a href="#screens" data-i18n="nav.screens">Ekranlar</a>
@@ -163,7 +159,7 @@
 
 <header class="hero" id="top">
   <div class="wrap">
-    <svg class="eye-big"><use href="#nazar"/></svg>
+    <img class="eye-big" src="assets/netnazar-icon.png" alt="NetNazar">
     <h1 data-i18n="hero.h1">Ağını gözetleyen<br><span class="grad">göz.</span></h1>
     <p class="tagline" data-i18n="hero.tagline"><b>NetNazar</b>, yerel ağındaki her cihazı keşfeder, bağlantı kaliteni izler, güvenlik açıklarını ve gizli kameraları yakalar — <b>bulut yok, veri cihazında kalır.</b></p>
     <div class="cta-row">
@@ -302,7 +298,7 @@
 
 <footer>
   <div class="wrap foot-in">
-    <div class="brand"><svg class="eye" style="width:22px;height:22px"><use href="#nazar"/></svg> NetNazar</div>
+    <div class="brand"><img class="eye" style="width:22px;height:22px" src="assets/netnazar-icon.png" alt=""> NetNazar</div>
     <div class="foot-links">
       <a href="#features" data-i18n="nav.features">Özellikler</a>
       <a href="#download" data-i18n="nav.download">İndir</a>

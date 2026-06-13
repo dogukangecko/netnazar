@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://dogukangecko.github.io/netnazar/assets/screens/dashboard.png" width="240" alt="NetNazar" />
+<img src="https://dogukangecko.github.io/netnazar/assets/netnazar-icon.png" width="140" alt="NetNazar" />
 
 # 🧿 NetNazar
 
