@@ -175,8 +175,12 @@
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.4 12.9c0-2.3 1.9-3.4 2-3.4-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9-.7 0-1.8-.8-3-.8-1.5 0-2.9.9-3.7 2.3-1.6 2.7-.4 6.8 1.1 9 .7 1.1 1.6 2.3 2.7 2.3 1.1 0 1.5-.7 2.8-.7s1.6.7 2.8.7 1.9-1.1 2.6-2.1c.8-1.2 1.2-2.3 1.2-2.4 0 0-2.3-.9-2.3-3.5zM14.2 6.3c.6-.7 1-1.7.9-2.7-.9 0-1.9.6-2.5 1.3-.5.6-1 1.6-.9 2.6 1 .1 2-.5 2.5-1.2z"/></svg>
         <span data-i18n="hero.btnIos">iPhone &amp; iPad — yakında</span>
       </span>
+      <span class="btn btn-ghost soon">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 5.1l7.6-1v7.4H3V5.1zm0 13.8l7.6 1v-7.3H3v6.3zM11.4 4l9.6-1.3v8.8h-9.6V4zm0 16l9.6 1.3v-8.7h-9.6V20z"/></svg>
+        <span data-i18n="hero.btnWin">Windows — yakında</span>
+      </span>
     </div>
-    <p class="hero-meta" data-i18n="hero.meta"><b>macOS</b> &amp; <b>Android</b> indirilebilir · imzalı · ücretsiz · iPhone &amp; iPad yakında</p>
+    <p class="hero-meta" data-i18n="hero.meta"><b>macOS</b> &amp; <b>Android</b> indirilebilir · imzalı · ücretsiz · iPhone, iPad &amp; Windows yakında</p>
 
     <div class="trust">
       <span class="chip"><span class="dot blue"></span> <span data-i18n="chip.nocloud">Bulut yok, veri cihazında</span></span>
@@ -308,7 +312,7 @@ const LANGS=[["en","English"],["tr","Türkçe"],["zh","中文"],["hi","हिन
 const I18N={
  en:{"meta.title":"NetNazar — The eye that watches your network","meta.desc":"NetNazar is a privacy-first network scanner that discovers every device on your local network, monitors connection quality, and detects security holes and hidden cameras. No cloud — your data stays on device.",
   "nav.features":"Features","nav.screens":"Screens","nav.privacy":"Privacy","nav.download":"Download","nav.opensource":"Open source","nav.cta":"Download for Mac",
-  "hero.h1":"The eye on<br><span class=\"grad\">your network.</span>","hero.tagline":"<b>NetNazar</b> discovers every device on your network, monitors connection quality, and catches security holes and hidden cameras — <b>no cloud, your data stays on device.</b>","hero.btnMac":"Download for macOS","hero.btnIos":"iPhone &amp; iPad — soon","hero.meta":"<b>macOS</b> &amp; <b>Android</b> available · signed · free · iPhone &amp; iPad soon",
+  "hero.h1":"The eye on<br><span class=\"grad\">your network.</span>","hero.tagline":"<b>NetNazar</b> discovers every device on your network, monitors connection quality, and catches security holes and hidden cameras — <b>no cloud, your data stays on device.</b>","hero.btnMac":"Download for macOS","hero.btnIos":"iPhone &amp; iPad — soon","hero.btnWin":"Windows — soon","hero.meta":"<b>macOS</b> &amp; <b>Android</b> available · signed · free · iPhone, iPad &amp; Windows soon",
   "chip.nocloud":"No cloud, data on device","chip.privacy":"Privacy-first","chip.langs":"11 languages","chip.selfhost":"Self-host remote monitoring","chip.opensource":"Open-source relay (AGPL)",
   "feat.title":"Your whole network toolkit in one app","feat.sub":"Does what Fing, Nmap and home-network monitors do — but keeps your data to yourself.",
   "feat.discovery.h":"Device discovery","feat.discovery.p":"Every device in seconds via ARP · ICMP · mDNS; vendor, hostname, IP &amp; MAC, open ports.",
@@ -326,7 +330,7 @@ const I18N={
   "foot.support":"Support"},
  tr:{"meta.title":"NetNazar — Ağını gözetleyen göz","meta.desc":"NetNazar; yerel ağındaki tüm cihazları keşfeden, bağlantı kaliteni izleyen, güvenlik açıklarını ve gizli kameraları tespit eden gizlilik-öncelikli bir ağ tarayıcı. Bulut yok — veri cihazında kalır.",
   "nav.features":"Özellikler","nav.screens":"Ekranlar","nav.privacy":"Gizlilik","nav.download":"İndir","nav.opensource":"Açık kaynak","nav.cta":"Mac için indir",
-  "hero.h1":"Ağını gözetleyen<br><span class=\"grad\">göz.</span>","hero.tagline":"<b>NetNazar</b>, yerel ağındaki her cihazı keşfeder, bağlantı kaliteni izler, güvenlik açıklarını ve gizli kameraları yakalar — <b>bulut yok, veri cihazında kalır.</b>","hero.btnMac":"macOS için indir","hero.btnIos":"iPhone &amp; iPad — yakında","hero.meta":"<b>macOS</b> &amp; <b>Android</b> indirilebilir · imzalı · ücretsiz · iPhone &amp; iPad yakında",
+  "hero.h1":"Ağını gözetleyen<br><span class=\"grad\">göz.</span>","hero.tagline":"<b>NetNazar</b>, yerel ağındaki her cihazı keşfeder, bağlantı kaliteni izler, güvenlik açıklarını ve gizli kameraları yakalar — <b>bulut yok, veri cihazında kalır.</b>","hero.btnMac":"macOS için indir","hero.btnIos":"iPhone &amp; iPad — yakında","hero.btnWin":"Windows — yakında","hero.meta":"<b>macOS</b> &amp; <b>Android</b> indirilebilir · imzalı · ücretsiz · iPhone &amp; iPad yakında",
   "chip.nocloud":"Bulut yok, veri cihazında","chip.privacy":"Gizlilik-öncelikli","chip.langs":"11 dil","chip.selfhost":"Self-host uzaktan izleme","chip.opensource":"Açık kaynak relay (AGPL)",
   "feat.title":"Tek uygulamada tüm ağ aracın","feat.sub":"Fing, Nmap ve ev-ağı izleyicilerinin işini yapan, ama verini kendine saklayan bir araç.",
   "feat.discovery.h":"Cihaz keşfi","feat.discovery.p":"ARP · ICMP · mDNS ile saniyeler içinde tüm cihazlar; üretici, hostname, IP &amp; MAC, açık portlar.",
@@ -344,7 +348,7 @@ const I18N={
   "foot.support":"Destek"},
  zh:{"meta.title":"NetNazar — 守护你网络的眼睛","meta.desc":"NetNazar 是一款隐私优先的网络扫描器，发现本地网络中的每台设备，监测连接质量，检测安全漏洞与隐藏摄像头。无云端——数据留在设备上。",
   "nav.features":"功能","nav.screens":"截图","nav.privacy":"隐私","nav.download":"下载","nav.opensource":"开源","nav.cta":"下载 Mac 版",
-  "hero.h1":"守护你网络的<br><span class=\"grad\">那只眼。</span>","hero.tagline":"<b>NetNazar</b> 发现网络中的每台设备，监测连接质量，捕捉安全漏洞与隐藏摄像头——<b>无云端，数据留在设备上。</b>","hero.btnMac":"下载 macOS 版","hero.btnIos":"iPhone 和 iPad — 即将推出","hero.meta":"<b>macOS</b> 和 <b>Android</b> 可下载 · 已签名 · 免费 · iPhone 和 iPad 即将推出",
+  "hero.h1":"守护你网络的<br><span class=\"grad\">那只眼。</span>","hero.tagline":"<b>NetNazar</b> 发现网络中的每台设备，监测连接质量，捕捉安全漏洞与隐藏摄像头——<b>无云端，数据留在设备上。</b>","hero.btnMac":"下载 macOS 版","hero.btnIos":"iPhone 和 iPad — 即将推出","hero.btnWin":"Windows — 即将推出","hero.meta":"<b>macOS</b> 和 <b>Android</b> 可下载 · 已签名 · 免费 · iPhone、iPad 和 Windows 即将推出",
   "chip.nocloud":"无云端，数据在设备上","chip.privacy":"隐私优先","chip.langs":"11 种语言","chip.selfhost":"自托管远程监控","chip.opensource":"开源中继 (AGPL)",
   "feat.title":"一款应用，搞定整套网络工具","feat.sub":"做 Fing、Nmap 和家庭网络监控所做的事——但把数据留给你自己。",
   "feat.discovery.h":"设备发现","feat.discovery.p":"通过 ARP · ICMP · mDNS 在数秒内发现全部设备；厂商、主机名、IP 与 MAC、开放端口。",
@@ -362,7 +366,7 @@ const I18N={
   "foot.support":"支持"},
  hi:{"meta.title":"NetNazar — आपके नेटवर्क पर नज़र रखने वाली आँख","meta.desc":"NetNazar एक प्राइवेसी-फर्स्ट नेटवर्क स्कैनर है जो आपके लोकल नेटवर्क के हर डिवाइस को खोजता है, कनेक्शन गुणवत्ता मॉनिटर करता है, और सुरक्षा खामियाँ व छिपे कैमरे पकड़ता है। कोई क्लाउड नहीं — डेटा डिवाइस पर रहता है।",
   "nav.features":"विशेषताएँ","nav.screens":"स्क्रीन","nav.privacy":"प्राइवेसी","nav.download":"डाउनलोड","nav.opensource":"ओपन सोर्स","nav.cta":"Mac के लिए डाउनलोड",
-  "hero.h1":"आपके नेटवर्क पर<br><span class=\"grad\">नज़र रखती आँख।</span>","hero.tagline":"<b>NetNazar</b> आपके नेटवर्क का हर डिवाइस खोजता है, कनेक्शन गुणवत्ता मॉनिटर करता है, और सुरक्षा खामियाँ व छिपे कैमरे पकड़ता है — <b>कोई क्लाउड नहीं, डेटा डिवाइस पर रहता है।</b>","hero.btnMac":"macOS के लिए डाउनलोड","hero.btnIos":"iPhone और iPad — जल्द","hero.meta":"<b>macOS</b> और <b>Android</b> उपलब्ध · साइन्ड · मुफ़्त · iPhone और iPad जल्द",
+  "hero.h1":"आपके नेटवर्क पर<br><span class=\"grad\">नज़र रखती आँख।</span>","hero.tagline":"<b>NetNazar</b> आपके नेटवर्क का हर डिवाइस खोजता है, कनेक्शन गुणवत्ता मॉनिटर करता है, और सुरक्षा खामियाँ व छिपे कैमरे पकड़ता है — <b>कोई क्लाउड नहीं, डेटा डिवाइस पर रहता है।</b>","hero.btnMac":"macOS के लिए डाउनलोड","hero.btnIos":"iPhone और iPad — जल्द","hero.btnWin":"Windows — जल्द","hero.meta":"<b>macOS</b> और <b>Android</b> उपलब्ध · साइन्ड · मुफ़्त · iPhone, iPad और Windows जल्द",
   "chip.nocloud":"कोई क्लाउड नहीं, डेटा डिवाइस पर","chip.privacy":"प्राइवेसी-फर्स्ट","chip.langs":"11 भाषाएँ","chip.selfhost":"सेल्फ-होस्ट रिमोट मॉनिटरिंग","chip.opensource":"ओपन-सोर्स रिले (AGPL)",
   "feat.title":"एक ही ऐप में पूरा नेटवर्क टूलकिट","feat.sub":"वही जो Fing, Nmap और होम-नेटवर्क मॉनिटर करते हैं — पर आपका डेटा आपके पास रहता है।",
   "feat.discovery.h":"डिवाइस खोज","feat.discovery.p":"ARP · ICMP · mDNS से सेकंडों में सभी डिवाइस; वेंडर, होस्टनेम, IP और MAC, खुले पोर्ट।",
@@ -380,7 +384,7 @@ const I18N={
   "foot.support":"सहायता"},
  es:{"meta.title":"NetNazar — El ojo que vigila tu red","meta.desc":"NetNazar es un escáner de red centrado en la privacidad que descubre cada dispositivo de tu red local, monitorea la calidad de conexión y detecta fallos de seguridad y cámaras ocultas. Sin nube: tus datos se quedan en el dispositivo.",
   "nav.features":"Funciones","nav.screens":"Pantallas","nav.privacy":"Privacidad","nav.download":"Descargar","nav.opensource":"Código abierto","nav.cta":"Descargar para Mac",
-  "hero.h1":"El ojo que vigila<br><span class=\"grad\">tu red.</span>","hero.tagline":"<b>NetNazar</b> descubre cada dispositivo de tu red, monitorea la calidad de conexión y detecta fallos de seguridad y cámaras ocultas — <b>sin nube, tus datos se quedan en el dispositivo.</b>","hero.btnMac":"Descargar para macOS","hero.btnIos":"iPhone y iPad — pronto","hero.meta":"<b>macOS</b> y <b>Android</b> disponibles · firmado · gratis · iPhone y iPad pronto",
+  "hero.h1":"El ojo que vigila<br><span class=\"grad\">tu red.</span>","hero.tagline":"<b>NetNazar</b> descubre cada dispositivo de tu red, monitorea la calidad de conexión y detecta fallos de seguridad y cámaras ocultas — <b>sin nube, tus datos se quedan en el dispositivo.</b>","hero.btnMac":"Descargar para macOS","hero.btnIos":"iPhone y iPad — pronto","hero.btnWin":"Windows — pronto","hero.meta":"<b>macOS</b> y <b>Android</b> disponibles · firmado · gratis · iPhone, iPad y Windows pronto",
   "chip.nocloud":"Sin nube, datos en el dispositivo","chip.privacy":"Privacidad ante todo","chip.langs":"11 idiomas","chip.selfhost":"Monitoreo remoto self-host","chip.opensource":"Relay de código abierto (AGPL)",
   "feat.title":"Todo tu kit de red en una app","feat.sub":"Hace lo que Fing, Nmap y los monitores de red doméstica — pero tus datos se quedan contigo.",
   "feat.discovery.h":"Descubrimiento de dispositivos","feat.discovery.p":"Todos los dispositivos en segundos vía ARP · ICMP · mDNS; fabricante, hostname, IP y MAC, puertos abiertos.",
@@ -398,7 +402,7 @@ const I18N={
   "foot.support":"Soporte"},
  fr:{"meta.title":"NetNazar — L'œil qui veille sur votre réseau","meta.desc":"NetNazar est un scanner réseau axé sur la confidentialité qui découvre chaque appareil de votre réseau local, surveille la qualité de connexion et détecte les failles de sécurité et caméras cachées. Aucun cloud — vos données restent sur l'appareil.",
   "nav.features":"Fonctions","nav.screens":"Écrans","nav.privacy":"Confidentialité","nav.download":"Télécharger","nav.opensource":"Open source","nav.cta":"Télécharger pour Mac",
-  "hero.h1":"L'œil qui veille sur<br><span class=\"grad\">votre réseau.</span>","hero.tagline":"<b>NetNazar</b> découvre chaque appareil de votre réseau, surveille la qualité de connexion et repère les failles de sécurité et caméras cachées — <b>aucun cloud, vos données restent sur l'appareil.</b>","hero.btnMac":"Télécharger pour macOS","hero.btnIos":"iPhone et iPad — bientôt","hero.meta":"<b>macOS</b> et <b>Android</b> disponibles · signé · gratuit · iPhone et iPad bientôt",
+  "hero.h1":"L'œil qui veille sur<br><span class=\"grad\">votre réseau.</span>","hero.tagline":"<b>NetNazar</b> découvre chaque appareil de votre réseau, surveille la qualité de connexion et repère les failles de sécurité et caméras cachées — <b>aucun cloud, vos données restent sur l'appareil.</b>","hero.btnMac":"Télécharger pour macOS","hero.btnIos":"iPhone et iPad — bientôt","hero.btnWin":"Windows — bientôt","hero.meta":"<b>macOS</b> et <b>Android</b> disponibles · signé · gratuit · iPhone, iPad et Windows bientôt",
   "chip.nocloud":"Aucun cloud, données sur l'appareil","chip.privacy":"Confidentialité d'abord","chip.langs":"11 langues","chip.selfhost":"Surveillance à distance auto-hébergée","chip.opensource":"Relais open source (AGPL)",
   "feat.title":"Toute votre boîte à outils réseau dans une app","feat.sub":"Fait ce que font Fing, Nmap et les moniteurs de réseau domestique — mais garde vos données pour vous.",
   "feat.discovery.h":"Découverte d'appareils","feat.discovery.p":"Tous les appareils en quelques secondes via ARP · ICMP · mDNS ; fabricant, nom d'hôte, IP et MAC, ports ouverts.",
@@ -416,7 +420,7 @@ const I18N={
   "foot.support":"Support"},
  ar:{"meta.title":"NetNazar — العين التي تحرس شبكتك","meta.desc":"NetNazar ماسح شبكات يضع الخصوصية أولاً، يكتشف كل جهاز في شبكتك المحلية، ويراقب جودة الاتصال، ويكشف الثغرات الأمنية والكاميرات المخفية. لا سحابة — بياناتك تبقى على جهازك.",
   "nav.features":"الميزات","nav.screens":"اللقطات","nav.privacy":"الخصوصية","nav.download":"تنزيل","nav.opensource":"مفتوح المصدر","nav.cta":"تنزيل لـ Mac",
-  "hero.h1":"العين التي تحرس<br><span class=\"grad\">شبكتك.</span>","hero.tagline":"<b>NetNazar</b> يكتشف كل جهاز في شبكتك، ويراقب جودة الاتصال، ويلتقط الثغرات الأمنية والكاميرات المخفية — <b>لا سحابة، بياناتك تبقى على جهازك.</b>","hero.btnMac":"تنزيل لـ macOS","hero.btnIos":"iPhone و iPad — قريبًا","hero.meta":"<b>macOS</b> و <b>Android</b> متاحان · موقّع · مجاني · iPhone و iPad قريبًا",
+  "hero.h1":"العين التي تحرس<br><span class=\"grad\">شبكتك.</span>","hero.tagline":"<b>NetNazar</b> يكتشف كل جهاز في شبكتك، ويراقب جودة الاتصال، ويلتقط الثغرات الأمنية والكاميرات المخفية — <b>لا سحابة، بياناتك تبقى على جهازك.</b>","hero.btnMac":"تنزيل لـ macOS","hero.btnIos":"iPhone و iPad — قريبًا","hero.btnWin":"Windows — قريبًا","hero.meta":"<b>macOS</b> و <b>Android</b> متاحان · موقّع · مجاني · iPhone و iPad و Windows قريبًا",
   "chip.nocloud":"لا سحابة، البيانات على الجهاز","chip.privacy":"الخصوصية أولاً","chip.langs":"11 لغة","chip.selfhost":"مراقبة عن بُعد ذاتية الاستضافة","chip.opensource":"مُرحِّل مفتوح المصدر (AGPL)",
   "feat.title":"كل أدوات الشبكة في تطبيق واحد","feat.sub":"يفعل ما تفعله Fing و Nmap ومراقبات الشبكة المنزلية — لكنه يبقي بياناتك لك.",
   "feat.discovery.h":"اكتشاف الأجهزة","feat.discovery.p":"كل الأجهزة خلال ثوانٍ عبر ARP · ICMP · mDNS؛ المُصنّع، اسم المضيف، IP و MAC، المنافذ المفتوحة.",
@@ -434,7 +438,7 @@ const I18N={
   "foot.support":"الدعم"},
  pt:{"meta.title":"NetNazar — O olho que vigia a sua rede","meta.desc":"NetNazar é um scanner de rede com privacidade em primeiro lugar que descobre cada dispositivo da sua rede local, monitoriza a qualidade da ligação e deteta falhas de segurança e câmaras ocultas. Sem nuvem — os seus dados ficam no dispositivo.",
   "nav.features":"Recursos","nav.screens":"Telas","nav.privacy":"Privacidade","nav.download":"Baixar","nav.opensource":"Código aberto","nav.cta":"Baixar para Mac",
-  "hero.h1":"O olho que vigia<br><span class=\"grad\">a sua rede.</span>","hero.tagline":"<b>NetNazar</b> descobre cada dispositivo da sua rede, monitoriza a qualidade da ligação e apanha falhas de segurança e câmaras ocultas — <b>sem nuvem, os seus dados ficam no dispositivo.</b>","hero.btnMac":"Baixar para macOS","hero.btnIos":"iPhone e iPad — em breve","hero.meta":"<b>macOS</b> e <b>Android</b> disponíveis · assinado · grátis · iPhone e iPad em breve",
+  "hero.h1":"O olho que vigia<br><span class=\"grad\">a sua rede.</span>","hero.tagline":"<b>NetNazar</b> descobre cada dispositivo da sua rede, monitoriza a qualidade da ligação e apanha falhas de segurança e câmaras ocultas — <b>sem nuvem, os seus dados ficam no dispositivo.</b>","hero.btnMac":"Baixar para macOS","hero.btnIos":"iPhone e iPad — em breve","hero.btnWin":"Windows — em breve","hero.meta":"<b>macOS</b> e <b>Android</b> disponíveis · assinado · grátis · iPhone, iPad e Windows em breve",
   "chip.nocloud":"Sem nuvem, dados no dispositivo","chip.privacy":"Privacidade em primeiro lugar","chip.langs":"11 idiomas","chip.selfhost":"Monitorização remota self-host","chip.opensource":"Relay de código aberto (AGPL)",
   "feat.title":"Todo o seu kit de rede numa app","feat.sub":"Faz o que Fing, Nmap e os monitores de rede doméstica fazem — mas guarda os seus dados para si.",
   "feat.discovery.h":"Descoberta de dispositivos","feat.discovery.p":"Todos os dispositivos em segundos via ARP · ICMP · mDNS; fabricante, hostname, IP e MAC, portas abertas.",
@@ -452,7 +456,7 @@ const I18N={
   "foot.support":"Suporte"},
  ru:{"meta.title":"NetNazar — Глаз, что следит за вашей сетью","meta.desc":"NetNazar — сетевой сканер с приоритетом конфиденциальности: находит каждое устройство в локальной сети, отслеживает качество соединения и выявляет уязвимости и скрытые камеры. Без облака — данные остаются на устройстве.",
   "nav.features":"Возможности","nav.screens":"Экраны","nav.privacy":"Конфиденциальность","nav.download":"Скачать","nav.opensource":"Открытый код","nav.cta":"Скачать для Mac",
-  "hero.h1":"Глаз, что следит за<br><span class=\"grad\">вашей сетью.</span>","hero.tagline":"<b>NetNazar</b> находит каждое устройство в вашей сети, отслеживает качество соединения и ловит уязвимости и скрытые камеры — <b>без облака, данные остаются на устройстве.</b>","hero.btnMac":"Скачать для macOS","hero.btnIos":"iPhone и iPad — скоро","hero.meta":"<b>macOS</b> и <b>Android</b> доступны · подписано · бесплатно · iPhone и iPad скоро",
+  "hero.h1":"Глаз, что следит за<br><span class=\"grad\">вашей сетью.</span>","hero.tagline":"<b>NetNazar</b> находит каждое устройство в вашей сети, отслеживает качество соединения и ловит уязвимости и скрытые камеры — <b>без облака, данные остаются на устройстве.</b>","hero.btnMac":"Скачать для macOS","hero.btnIos":"iPhone и iPad — скоро","hero.btnWin":"Windows — скоро","hero.meta":"<b>macOS</b> и <b>Android</b> доступны · подписано · бесплатно · iPhone, iPad и Windows скоро",
   "chip.nocloud":"Без облака, данные на устройстве","chip.privacy":"Приватность прежде всего","chip.langs":"11 языков","chip.selfhost":"Самостоятельный удалённый мониторинг","chip.opensource":"Релей с открытым кодом (AGPL)",
   "feat.title":"Весь сетевой инструментарий в одном приложении","feat.sub":"Делает то же, что Fing, Nmap и мониторы домашней сети — но данные остаются у вас.",
   "feat.discovery.h":"Обнаружение устройств","feat.discovery.p":"Все устройства за секунды через ARP · ICMP · mDNS; производитель, имя хоста, IP и MAC, открытые порты.",
@@ -470,7 +474,7 @@ const I18N={
   "foot.support":"Поддержка"},
  ja:{"meta.title":"NetNazar — あなたのネットワークを見守る目","meta.desc":"NetNazar はプライバシー最優先のネットワークスキャナー。ローカルネットワーク上のすべてのデバイスを発見し、接続品質を監視し、セキュリティの穴や隠しカメラを検出します。クラウドなし——データは端末に残ります。",
   "nav.features":"機能","nav.screens":"画面","nav.privacy":"プライバシー","nav.download":"ダウンロード","nav.opensource":"オープンソース","nav.cta":"Mac版をダウンロード",
-  "hero.h1":"あなたのネットワークを<br><span class=\"grad\">見守る目。</span>","hero.tagline":"<b>NetNazar</b> はネットワーク上のすべてのデバイスを発見し、接続品質を監視し、セキュリティの穴や隠しカメラを捉えます — <b>クラウドなし、データは端末に残ります。</b>","hero.btnMac":"macOS版をダウンロード","hero.btnIos":"iPhone・iPad — 近日","hero.meta":"<b>macOS</b>・<b>Android</b> 提供中 · 署名済み · 無料 · iPhone・iPad 近日",
+  "hero.h1":"あなたのネットワークを<br><span class=\"grad\">見守る目。</span>","hero.tagline":"<b>NetNazar</b> はネットワーク上のすべてのデバイスを発見し、接続品質を監視し、セキュリティの穴や隠しカメラを捉えます — <b>クラウドなし、データは端末に残ります。</b>","hero.btnMac":"macOS版をダウンロード","hero.btnIos":"iPhone・iPad — 近日","hero.btnWin":"Windows — 近日","hero.meta":"<b>macOS</b>・<b>Android</b> 提供中 · 署名済み · 無料 · iPhone・iPad・Windows 近日",
   "chip.nocloud":"クラウドなし、データは端末に","chip.privacy":"プライバシー最優先","chip.langs":"11言語","chip.selfhost":"セルフホスト遠隔監視","chip.opensource":"オープンソースのリレー (AGPL)",
   "feat.title":"ネットワークツール一式を1つのアプリに","feat.sub":"Fing・Nmap・家庭用ネットワーク監視がすることを——でもデータはあなたの手元に。",
   "feat.discovery.h":"デバイス発見","feat.discovery.p":"ARP・ICMP・mDNS で数秒のうちに全デバイス；ベンダー、ホスト名、IP と MAC、開放ポート。",
@@ -488,7 +492,7 @@ const I18N={
   "foot.support":"サポート"},
  de:{"meta.title":"NetNazar — Das Auge, das dein Netzwerk bewacht","meta.desc":"NetNazar ist ein datenschutzorientierter Netzwerkscanner, der jedes Gerät in deinem lokalen Netzwerk findet, die Verbindungsqualität überwacht und Sicherheitslücken sowie versteckte Kameras erkennt. Keine Cloud — deine Daten bleiben auf dem Gerät.",
   "nav.features":"Funktionen","nav.screens":"Screens","nav.privacy":"Datenschutz","nav.download":"Download","nav.opensource":"Open Source","nav.cta":"Für Mac laden",
-  "hero.h1":"Das Auge, das dein<br><span class=\"grad\">Netzwerk bewacht.</span>","hero.tagline":"<b>NetNazar</b> findet jedes Gerät in deinem Netzwerk, überwacht die Verbindungsqualität und erkennt Sicherheitslücken und versteckte Kameras — <b>keine Cloud, deine Daten bleiben auf dem Gerät.</b>","hero.btnMac":"Für macOS laden","hero.btnIos":"iPhone &amp; iPad — bald","hero.meta":"<b>macOS</b> &amp; <b>Android</b> verfügbar · signiert · kostenlos · iPhone &amp; iPad bald",
+  "hero.h1":"Das Auge, das dein<br><span class=\"grad\">Netzwerk bewacht.</span>","hero.tagline":"<b>NetNazar</b> findet jedes Gerät in deinem Netzwerk, überwacht die Verbindungsqualität und erkennt Sicherheitslücken und versteckte Kameras — <b>keine Cloud, deine Daten bleiben auf dem Gerät.</b>","hero.btnMac":"Für macOS laden","hero.btnIos":"iPhone &amp; iPad — bald","hero.btnWin":"Windows — bald","hero.meta":"<b>macOS</b> &amp; <b>Android</b> verfügbar · signiert · kostenlos · iPhone, iPad &amp; Windows bald",
   "chip.nocloud":"Keine Cloud, Daten auf dem Gerät","chip.privacy":"Datenschutz zuerst","chip.langs":"11 Sprachen","chip.selfhost":"Selbst-gehostete Fernüberwachung","chip.opensource":"Open-Source-Relay (AGPL)",
   "feat.title":"Dein ganzes Netzwerk-Toolkit in einer App","feat.sub":"Macht, was Fing, Nmap und Heimnetz-Monitore tun — behält deine Daten aber bei dir.",
   "feat.discovery.h":"Geräteerkennung","feat.discovery.p":"Alle Geräte in Sekunden via ARP · ICMP · mDNS; Hersteller, Hostname, IP &amp; MAC, offene Ports.",
