@@ -8,9 +8,9 @@
 
 **Yerel ağ tarayıcı + izleyici — bulut yok, veri cihazında kalır.**
 
-[**🌐 netnazar sitesi**](https://dogukangecko.github.io/netnazar/) · [**⬇️ macOS indir**](https://github.com/dogukangecko/netnazar/releases/latest) · [**🔒 Gizlilik**](https://dogukangecko.github.io/netnazar/privacy.html)
+[**🌐 netnazar sitesi**](https://dogukangecko.github.io/netnazar/) · [**⬇️ İndir**](https://dogukangecko.github.io/netnazar/#download) · [**🔒 Gizlilik**](https://dogukangecko.github.io/netnazar/privacy.html)
 
-iPhone · iPad · Mac · Android &nbsp;|&nbsp; 11 dil &nbsp;|&nbsp; ücretsiz
+iPhone · iPad · Mac · Windows · Android &nbsp;|&nbsp; 11 dil &nbsp;|&nbsp; ücretsiz
 
 </div>
 
@@ -40,10 +40,13 @@ NetNazar; evindeki ya da iş yerindeki yerel ağda **kim var, bağlantın nasıl
 ## ⬇️ İndir
 
 - **macOS** (11 Big Sur+, Apple Silicon & Intel): [**en güncel .dmg**](https://github.com/dogukangecko/netnazar/releases/latest) — imzalı ve Apple tarafından notarize edilmiş.
+- **Windows** (10/11, x64): [**kurulum sihirbazı (setup.exe)**](https://github.com/dogukangecko/netnazar/releases/download/win-1.0.1-beta/NetNazar-1.0.1-windows-setup.exe) veya [**portable .zip**](https://github.com/dogukangecko/netnazar/releases/download/win-1.0.1-beta/NetNazar-1.0.1-windows-x64.zip) — imzasız beta; sürücü/Npcap gerekmez.
+- **Android**: [**doğrudan .apk**](https://github.com/dogukangecko/netnazar/releases/latest) (imzalı) — Play Store yakında.
 - **iPhone & iPad**: App Store incelemesinde — yakında.
-- **Android**: yakında.
 
 macOS kurulumu: `.dmg`'yi indir → aç → **NetNazar**'ı **Applications**'a sürükle → çift tıkla. Gatekeeper sorunsuz açar (notarize edilmiş).
+
+Windows kurulumu: `setup.exe`'yi indir → çalıştır (kullanıcı kurulumu, yönetici gerekmez). SmartScreen uyarısı çıkarsa **Daha fazla bilgi → Yine de çalıştır**. Başlat menüsü/masaüstü kısayolu + isteğe bağlı açılışta-başlat. İmzalama henüz yok (beta).
 
 ## 📸 Ekran görüntüleri
 
@@ -60,7 +63,7 @@ NetNazar veri toplamaz. Tarama sonuçları (IP/MAC, cihaz adları) yalnızca cih
 
 ## 🛠️ Teknoloji
 
-Çapraz platform: **Rust çekirdek** (tarama/keşif/güvenlik motoru) + **Flutter** arayüz. iOS, iPad, macOS ve Android tek kod tabanından. Uzaktan izleme için isteğe bağlı **self-host relay** (Docker) — kaynağı **açık**: [netnazar-relay](https://github.com/dogukangecko/netnazar-relay) (AGPL-3.0). Kendi sunucunda çalışan parçayı satır satır denetleyebilirsin.
+Çapraz platform: **Rust çekirdek** (tarama/keşif/güvenlik motoru) + **Flutter** arayüz. iOS, iPad, macOS, Windows ve Android tek kod tabanından. Windows'ta ham datalink yerine ICMP + OS ARP tablosu kullanılır — sürücü/Npcap gerekmez. Uzaktan izleme için isteğe bağlı **self-host relay** (Docker) — kaynağı **açık**: [netnazar-relay](https://github.com/dogukangecko/netnazar-relay) (AGPL-3.0). Kendi sunucunda çalışan parçayı satır satır denetleyebilirsin.
 
 ## 💬 Destek
 
