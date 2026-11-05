@@ -67,7 +67,7 @@ NetNazar veri toplamaz. Tarama sonuçları (IP/MAC, cihaz adları) yalnızca cih
 
 ## 💬 Destek
 
-Soru, hata bildirimi, öneri: [geckodogukan@gmail.com](mailto:geckodogukan@gmail.com)
+Soru, hata bildirimi, öneri: [yazilim@kodviva.com](mailto:yazilim@kodviva.com)
 
 ---
 
